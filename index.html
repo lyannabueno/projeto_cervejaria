@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craft Beer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho"> <!-- 'sticky-top' faz o header acompanhar a página durante a rolagem -->
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Alquimia na Serra</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span> <!-- cria o menu-hamburguer -->
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold" id="margin-nav-for-sm-media">
+                        <a href="#sobre-a-cervejaria" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i> <!-- 'me-1' significa 'margin-end' ou 'margin-right' e distancia no icone do texto | sendo 1 a menor distância -->
+                            Sobre a cervejaria
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardapio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-cervejaria">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slide/slide1.jpg" alt="Espaço do bar">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide/slide2.jpg" alt="Barris de cerveja">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide/slide3.jpg" alt="Abridor de garrafa">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide/slide4.jpg" alt="Cervejas">
+                    </div>
+                </div>
+    
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+    
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class='active' data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+    
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <article class="introducao">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="images/restaurante.jpg" class='d-block w-100 rounded' alt="Foto do espaço interno da cervejaria" id="height-for-md-media">
+                                </td>
+
+                                <td>
+                                    <h2 class="section-title">Sobre <span class="text-colored">a cervejaria</span></h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eligendi quos totam maxime labore odio nobis velit debitis, consectetur assumenda vitae consequuntur mollitia autem voluptatum aliquid accusantium ipsam dolor? Harum.</p>
+                                    <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus accusamus reprehenderit vel eius fugiat totam adipisci ex, odio culpa ipsa, vero mollitia. Corporis reprehenderit assumenda dolorum commodi velit, ratione exercitationem!</p>
+                                    <ul>
+                                        <li>A melhor do mercado</li>
+                                        <li>Refeições para todos os gostos</li>
+                                        <li>Bebidas artesanais de qualidade </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/eventos/aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i> <!-- 'bi' significa bootstrap-icon -->
+                            Aniversários
+                        </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, dignissimos voluptatem consequuntur nesciunt vero blanditiis dolor incidunt sit harum quibusdam enim accusantium delectus atque animi aliquam autem eveniet officia numquam.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/eventos/casamento.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Recepção para casamentos
+                        </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, dignissimos voluptatem consequuntur nesciunt vero blanditiis dolor incidunt sit harum quibusdam enim accusantium delectus atque animi aliquam autem eveniet officia numquam.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/eventos/confraternizacoes.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações
+                        </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, dignissimos voluptatem consequuntur nesciunt vero blanditiis dolor incidunt sit harum quibusdam enim accusantium delectus atque animi aliquam autem eveniet officia numquam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">cardápio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button"  data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Bebidas não alcoólicas</button>
+                            <button type="button"  data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">Bebidas alcoólicas</button>
+                            <button type="button"  data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Entradas</button>
+                            <button type="button"  data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Pratos principais</button>
+                            <button type="button"  data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/bebidas/coca-cola.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/bebidas/suco.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Suco de laranja</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/bebidas/chá.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Chá Gelado</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/bebidas/red-bull.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Red-Bull</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/bebidas/café.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Café</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/bebidas/pepsi.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Pepsi</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/bebidas/h2o.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">H2O</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/bebidas/guarana.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Guaraná</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/bebidas/american-stout.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">American Stout</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/bebidas/dry-stout.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Dry Stout</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/bebidas/russian-imperial-stout.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Russian Imperial Stout</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/bebidas/sweet-stout.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Sweet Stout</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' id="peroni-height" src="images/bebidas/peroni.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Peroni</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' id="corona-height" src="images/bebidas/corona.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Corona</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' id="budweiser-height" src="images/bebidas/budweiser.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">budweiser</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' id="heineken-height" src="images/bebidas/heineken.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Heineken</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class='d-block w-100' src="images/entrada/batata-frita.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Batata Frita</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class='d-block w-100' src="images/entrada/bolinho.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Bolinho de Carne</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class='d-block w-100' src="images/entrada/salame-e-queijo.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Salame e queijos</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/pratos principais/anel-de-cebola.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Aneis de Cebola</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/pratos principais/bolinho-de-bacalhau.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Bolinho de Bacalhau</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/pratos principais/frango.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Frango à passarinho</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/pratos principais/pastel.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Pastel de Carne</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/pratos principais/pizza.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza Portuguesa</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/pratos principais/torresmo.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Torresmo</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/pratos principais/caldo-de-feijao.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Caldo de Feijão</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class='d-block w-100' src="images/pratos principais/calabresa-acebolada.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Calabreza Acebolada</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class='d-block w-100' src="images/sobremesa/bolo.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo de Chocolate</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class='d-block w-100' src="images/sobremesa/panqueca.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Panqueca com chantilly</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class='d-block w-100' src="images/sobremesa/sorvete.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Sorvete</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" name="email" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" name="telefone">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <input id="mensagem" class="form-control" name="mensagem" required>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+
+                    <div class="col-md-5 localization">
+                        <div class="row">
+                            <h3  class="section-title fs-4 text-colored">
+                                <i classs="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Socias
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                        </div>
+                        <address>Rua Alquimia da Serra nº 57, Bairro Agrícula - Rio de Janeiro (RJ)</address>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>

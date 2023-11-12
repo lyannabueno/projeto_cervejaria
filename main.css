@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #8d4925;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #8d4925;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: aliceblue;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+#eventos, #fale-conosco {
+    background-color: #ffb58a64;
+}
+
+.text-colored {
+    color: #8d4925;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #8d4925;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #8d4925;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #margin-nav-for-sm-media {
+        margin-top: 15px;
+    }
+
+    table td {
+        display: block;
+    }
+
+    td img {
+        margin-bottom: 10px;
+    }
+
+    #eventos h2 {
+        margin-bottom: 0;
+    }
+
+    #eventos img {
+        margin-top: 10px;
+    }
+
+    #cardapio img {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .carousel-item img {
+        height: 380px;
+    }
+    
+    nav li {
+        padding-top: 10px;
+    }
+
+    table td {
+        display: block;
+    }
+
+    td img {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    #bebidas-sem-alcool img,
+    #pratos-principais img {
+        height: 117.31px;
+    }
+
+    td h2, td p, td h3, td ul {
+        margin-left: 45px;
+    }
+}
