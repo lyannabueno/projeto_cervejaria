@@ -10,8 +10,8 @@ Este site pertence à uma cervejaria que possui programações para diversas oca
 
 ## Tecnologias Utilizadas 📚
 
-- **HTML:** Estrutura da página web.
-- **CSS:** Estilização da interface do usuário.
+- **HTML5:** Estrutura da página web.
+- **CSS3:** Estilização da interface do usuário.
 - **JavaScript:** Eventos como cliques em botões e animações de scroll.
 - **Bootstrap 5.3.2:** Estiliza e estrutura o layout do site, incluindo o sistema de grid para layouts responsivos, componentes de interface como botões e formulários, e utilitários de CSS para margens, padding e alinhamento
 - **jQuery 3.7.1:** Criação do menu hamburguer e a animação de scroll para a seção de contato.
