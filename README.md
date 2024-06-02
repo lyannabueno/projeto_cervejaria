@@ -1,57 +1,53 @@
 # Alquimia na Serra 🍻
 
-Este site pertence à uma cervejaria que possui programações para diversas ocassiões que ocorram no ambiente, como casamento, festas de aniversário e confraternização. Possuem um cardápio com diferentes tipos de comida e bebida (para todas as idades), além de suas cervejas artesanais que são especialidades da casa.
-
 ![image](https://github.com/lyannabueno/projeto_cervejaria/assets/130186281/9df17228-705a-4fcb-bcdd-8203afc80ae9)
   
-## Funcionalidades 🌟
+## Features 🌟
 
-- **Visão interna do ambiente:** Com diversas fotos do local, é possível ver suas diferents decorações conforme os eventos que ocorrem no local
+- **Internal view of the venue:** With various photos of the location, you can see its different decorations according to the events held there.
 
-![image](https://github.com/lyannabueno/projeto_cervejaria/assets/130186281/7aca3108-b3d3-4dcd-9379-723cda16f578)
-
-- **Cardápio:** Com fotos, é possível de vizualizar todos os pratos e bebidas que são servidos
-
-![image](https://github.com/lyannabueno/projeto_cervejaria/assets/130186281/0e1c3800-4deb-4aa6-a298-9c0e95005c50)
+- **Menu:** With photos, you can view all the dishes and drinks that are served.
   
-- **Reserva no local:** No final da página é possível mandar uma mensagem solicitando uma reserva no de dia e horário na cervejaria
+- **Reservation:** At the bottom of the page, you can send a message requesting a reservation for a specific date and time at the brewery.
 
-![image](https://github.com/lyannabueno/projeto_cervejaria/assets/130186281/ca9fb742-1862-4a18-9ae3-f87b11e2fda1)
+## Technologies Used 📚
 
-## Tecnologias Utilizadas 📚
+<p align="center">
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery">
+  <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+</p>
 
-- **HTML5:** Estrutura da página web.
-- **CSS3:** Estilização da interface do usuário.
-- **JavaScript:** Eventos como cliques em botões e animações de scroll.
-- **Bootstrap 5.3.2:** Estiliza e estrutura o layout do site, incluindo o sistema de grid para layouts responsivos, componentes de interface como botões e formulários, e utilitários de CSS para margens, padding e alinhamento
-- **jQuery 3.7.1:** Criação do menu hamburguer e a animação de scroll para a seção de contato.
-- **jQuery Mask Plugin 1.14.16:** Máscara de entrada no campo de telefone do formulário
-- **jQuery Validate 1.19.5:** Garante que os dados inseridos no campo de formulário sejam válidos e completos, com regras específicas para cada campo
+#### What I learned in this project:
+- Creating a sliding effect when interacting with the menu using Bootstrap JS.
+- Adding icons using Bootstrap Icons.
 
-## Como Navegar 🍽️
+## How to Navigate 🍽️
 
-Para entrar no site e reservar um dia e horário, você não precisa instalar nada. Simplesmente clone ou baixe o projeto para o seu computador e abra o arquivo `index.html` em um navegador de sua escolha.
+To visit the site and make a reservation, you don't need to install anything. Simply clone or download the project to your computer and open the `index.html` file in a browser of your choice.
 
-### Passos para Executar
+### Steps to Run
 
-1. **Clone ou baixe o repositório:**
+1. **Clone or download the repository:**
 
 ```bash
 https://github.com/lyannabueno/projeto_cervejaria.git
 ```
 
-2. **Abra o arquivo `index.html`:**
+2. **Open the `index.html` file:**
 
-Localize o arquivo `index.html` no diretório do projeto e abra-o em um navegador web.
+Locate the `index.html` file in the project directory and open it in a web browser.
 
-## Contribuições 🫂
+## Contributions 🫂
 
-Contribuições para melhorar a calculadora de médias são bem-vindas. Se você tem uma sugestão para melhorar este projeto, sinta-se à vontade para criar um fork do repositório, fazer suas alterações e enviar um pull request.
+Contributions to improve the project are welcome. If you have a suggestion to enhance this project, feel free to fork the repository, make your changes, and submit a pull request.
 
-## Contato 📩
+## Contact 📩
 
 Ana Bueno - anabuenogomes@hotmail.com
 
-Link do projeto: https://projeto-cervejaria-qd2u24bun-lyannabueno.vercel.app
+Project link: https://projeto-cervejaria-qd2u24bun-lyannabueno.vercel.app
 
 ---
